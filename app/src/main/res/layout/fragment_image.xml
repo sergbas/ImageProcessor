@@ -16,32 +16,32 @@
                 android:layout_height="wrap_content">
 
                 <TextView
-                    android:text="X:"
+                    android:text="width:"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
                 <EditText
                     android:id="@+id/sizeX"
                     android:inputType="number"
-                    android:text="50"
+                    android:text="250"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
                 <TextView
-                    android:text="Y:"
+                    android:text="height:"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
                 <EditText
                     android:id="@+id/sizeY"
                     android:inputType="number"
-                    android:text="50"
+                    android:text="200"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
                 <Button
                     android:id="@+id/load_image_btn"
-                    android:text="Load new image"
+                    android:text="Load image"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
@@ -65,7 +65,7 @@
                 <EditText
                     android:id="@+id/ratio"
                     android:inputType="numberDecimal"
-                    android:text="2.3"
+                    android:text="1.907"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
@@ -83,7 +83,7 @@
 
                 <Button
                     android:id="@+id/scale_btn"
-                    android:text="scale"
+                    android:text="resize"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
